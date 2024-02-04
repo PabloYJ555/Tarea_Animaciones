@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampoDeFutbol</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-image: url(./imagenes/campo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .jugador {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            opacity: 0; 
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards; 
+        }
+        .messi1 { top: 0; left: 0; animation-name: moverMessi1; animation-delay: 0s; }
+        .messi2 { top: 0; left: 0; animation-name: moverMessi2; animation-delay: 1s; }
+        .messi3 { top: 0; left: 0; animation-name: moverMessi3; animation-delay: 2s; }
+        .messi4 { top: 0; left: 0; animation-name: moverMessi4; animation-delay: 3s; }
+        .messi5 { top: 0; left: 0; animation-name: moverMessi5; animation-delay: 4s; }
+        .messi6 { top: 0; right: 0; animation-name: moverMessi6; animation-delay: 5s; }
+        .messi7 { top: 0; right: 0; animation-name: moverMessi7; animation-delay: 6s; }
+        .messi8 { top: 0; right: 0; animation-name: moverMessi8; animation-delay: 7s; }
+        .messi9 { top: 0; right: 0; animation-name: moverMessi9; animation-delay: 8s; }
+        .messi10 { top: 0; right: 0; animation-name: moverMessi10; animation-delay: 9s; }
+        .messi11 { top: 0; right: 0; animation-name: moverMessi11; animation-delay: 10s; }
+
+        @keyframes moverMessi1 { to { opacity: 1; top: 50px; left: 100px; } }
+        @keyframes moverMessi2 { to { opacity: 1; top: 150px; left: 200px; } }
+        @keyframes moverMessi3 { to { opacity: 1; top: 250px; left: 300px; } }
+        @keyframes moverMessi4 { to { opacity: 1; top: 350px; left: 400px; } }
+        @keyframes moverMessi5 { to { opacity: 1; top: 450px; left: 500px; } }
+        @keyframes moverMessi6 { to { opacity: 1; top: 50px; right: 100px; } }
+        @keyframes moverMessi7 { to { opacity: 1; top: 150px; right: 200px; } }
+        @keyframes moverMessi8 { to { opacity: 1; top: 250px; right: 300px; } }
+        @keyframes moverMessi9 { to { opacity: 1; top: 350px; right: 400px; } }
+        @keyframes moverMessi10 { to { opacity: 1; top: 450px; right: 500px; } }
+        @keyframes moverMessi11 { to { opacity: 1; top: 550px; right: 600px; } }
+    </style>
+</head>
+<body>
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi1">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi2">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi3">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi4">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi5">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi6">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi7">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi8">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi9">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi10">
+    <img src="./imagenes/messi.png" alt="messi" class="jugador messi11">
+</body>
+</html>
